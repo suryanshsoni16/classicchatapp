@@ -8,6 +8,7 @@ const projectID = '608b7bdc-b6c0-45d0-8aa9-39634f693ac9';
 
 const App = () => {
   if (!localStorage.getItem('username')) return <LoginForm />;
+  console.log("use these id password vk rcb ms dhoni csk rs mi");
 
   return (
     <ChatEngine
